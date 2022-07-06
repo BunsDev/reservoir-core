@@ -15,6 +15,8 @@ export const Eth: ChainIdToAddress = {
   [Network.AvalancheFuji]: AddressZero,
   [Network.Avalanche]: AddressZero,
   [Network.PolygonMumbai]: AddressZero,
+  [Network.Fantom]: AddressZero,
+  [Network.FantomTestnet]: AddressZero,
 };
 
 export const Weth: ChainIdToAddress = {
@@ -32,6 +34,9 @@ export const Weth: ChainIdToAddress = {
   // Avalanche: Wrapped AVAX
   [Network.Avalanche]: "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
   [Network.AvalancheFuji]: "0x1d308089a2d1ced3f1ce36b1fcaf815b07217be3",
+  // Fantom: Wrapped FTM
+  [Network.Fantom]: "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+  // [Network.FantomTestnet]: "",
 };
 
 // TODO: Include addresses across all supported chains
@@ -39,4 +44,5 @@ export const Usdc: ChainIdToAddress = {
   1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
   10: "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
   42: "0xb7a4f3e9097c08da09517b5ab877f7a917224ede",
+  250: "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
 };

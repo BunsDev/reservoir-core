@@ -1,5 +1,5 @@
 {
-  "name": "@reservoir0x/core",
+  "name": "nfnt-core",
   "private": true,
   "packageManager": "yarn@3.1.1",
   "workspaces": [

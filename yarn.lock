@@ -1280,49 +1280,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reservoir0x/contracts@workspace:packages/contracts":
-  version: 0.0.0-use.local
-  resolution: "@reservoir0x/contracts@workspace:packages/contracts"
-  dependencies:
-    "@nomiclabs/hardhat-ethers": ^2.0.6
-    "@nomiclabs/hardhat-etherscan": ^3.0.0
-    "@nomiclabs/hardhat-waffle": ^2.0.1
-    "@openzeppelin/contracts": ^4.4.0
-    "@reservoir0x/sdk": "workspace:*"
-    "@tenderly/hardhat-tenderly": ^1.0.13
-    "@types/mocha": ^9.0.0
-    "@types/node": ^16.11.12
-    chai: ^4.3.4
-    dotenv: ^10.0.0
-    ethereum-waffle: ^3.4.0
-    ethers: ^5.6.8
-    hardhat: ^2.7.0
-    hardhat-gas-reporter: ^1.0.8
-    ts-node: ^10.4.0
-    typescript: ^4.5.2
-  languageName: unknown
-  linkType: soft
-
-"@reservoir0x/core@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@reservoir0x/core@workspace:."
-  dependencies:
-    axios: ^0.27.2
-    typedoc: ^0.22.10
-  languageName: unknown
-  linkType: soft
-
-"@reservoir0x/sdk@workspace:*, @reservoir0x/sdk@workspace:packages/sdk":
-  version: 0.0.0-use.local
-  resolution: "@reservoir0x/sdk@workspace:packages/sdk"
-  dependencies:
-    "@types/node": ^16.11.12
-    ethers: ^5.6.8
-    merkletreejs: 0.2.31
-    typescript: ^4.5.2
-  languageName: unknown
-  linkType: soft
-
 "@resolver-engine/core@npm:^0.3.3":
   version: 0.3.3
   resolution: "@resolver-engine/core@npm:0.3.3"
@@ -8315,6 +8272,49 @@ __metadata:
   checksum: 83fcb3d4f8d9380210b1c2b8a610463602d80283f0c0c8571c1688e1ad6cbf3a16b345f5bb7212617d4898bedcfa10dff327dc09ec20a112a5bf43a0271375fb
   languageName: node
   linkType: hard
+
+"nfnt-contracts@workspace:packages/contracts":
+  version: 0.0.0-use.local
+  resolution: "nfnt-contracts@workspace:packages/contracts"
+  dependencies:
+    "@nomiclabs/hardhat-ethers": ^2.0.6
+    "@nomiclabs/hardhat-etherscan": ^3.0.0
+    "@nomiclabs/hardhat-waffle": ^2.0.1
+    "@openzeppelin/contracts": ^4.4.0
+    "@tenderly/hardhat-tenderly": ^1.0.13
+    "@types/mocha": ^9.0.0
+    "@types/node": ^16.11.12
+    chai: ^4.3.4
+    dotenv: ^10.0.0
+    ethereum-waffle: ^3.4.0
+    ethers: ^5.6.8
+    hardhat: ^2.7.0
+    hardhat-gas-reporter: ^1.0.8
+    nfnt-sdk: "workspace:*"
+    ts-node: ^10.4.0
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
+
+"nfnt-core@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nfnt-core@workspace:."
+  dependencies:
+    axios: ^0.27.2
+    typedoc: ^0.22.10
+  languageName: unknown
+  linkType: soft
+
+"nfnt-sdk@workspace:*, nfnt-sdk@workspace:packages/sdk":
+  version: 0.0.0-use.local
+  resolution: "nfnt-sdk@workspace:packages/sdk"
+  dependencies:
+    "@types/node": ^16.11.12
+    ethers: ^5.6.8
+    merkletreejs: 0.2.31
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
 
 "nice-try@npm:^1.0.4":
   version: 1.0.5
